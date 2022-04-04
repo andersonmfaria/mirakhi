@@ -1,0 +1,182 @@
+/* ---------- GERAL ---------- */
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+main, .content{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+ul{
+    padding: 0px!important;
+}
+/* ---------- FIM GERAL ---------- */
+
+
+
+/* ---------- BANNER TOPO ---------- */
+.logo img{
+    float: left;
+    width: 120px;
+    height: 60px;
+}
+.menu-principal{
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+}
+.redesocial ul li{
+    margin-left: .5px;
+    padding: 15px;
+    display: inline-block;
+    float: right;
+}
+/* ---------- FIM BANNER TOPO ---------- */
+
+
+
+/* ---------- MENU PRINCIPAL ---------- */
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.menu-urls{
+    border-bottom: 3px solid #efefef;
+    height: 80px;
+}
+.menu{
+    width: 70%;
+    float: left;
+}
+.header-2{
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 980px;
+    padding: 16px;
+}
+.menu ul li{
+    opacity: 0.95;
+    background-color: #ffffff;
+    z-index: 999;
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 10px;
+    height: 47px;
+    float: left;
+    width: 100px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    position: relative;
+    box-sizing: 0px ridge #000000;
+}
+.menu ul li ul li{
+    width: 180px;
+    background-color: #ffffff;
+}
+.menu ul li ul li:hover{
+    background-color: #efefef;
+}
+.menu ul li:hover{
+    border-bottom: 3px solid #00bac6;
+}
+.menu ul li a:hover {
+    color: #00bac6;
+}
+.menu ul li a{
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.busca{
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+.busca input{
+    border: 1px solid #d6d6d6;
+    background-image: url('../Imagens/lupa.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
+    width: 190px;
+    padding: 5px;
+    height: 36px;
+    margin-top: 10px;
+}
+.menu a{
+    display: block;
+    padding: .5rem;
+    text-decoration: none;
+}
+.menu ul ul{
+    display: none;
+}
+.menu ul li:hover > ul{
+    display: block;
+}
+.menu ul ul ul{
+    margin-left: 180px;
+    top: 0;
+    position: absolute;
+}
+/* ---------- FIM MENU PRINCIPAL ---------- */
+
+
+
+/* ---------- CONTEUDO PRINCIPAL ---------- */
+.texto-destaque{
+    text-align: center;
+}
+.texto-destaque strong{
+    color: 646464;
+}
+.texto-destaque h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #818181;
+}
+.texto-destaque p{
+    font-size: 20px;
+    color: #595959;
+}
+.bloco-texto{
+    margin-top: 3em;
+}
+.col-2{
+    border-left: 1px solid #cacaca;
+    border-right: 1px solid #cacaca;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 46%;
+    float: left;
+    position: relative;
+}
+h3{
+    color: #595959;
+    font-weight: normal!important;
+}
+/* ---------- CONTEUDO PRINCIPAL ---------- */
+
+
+
+/* ---------- RODAPÉ ---------- */
+.footer{
+    background-color: #252323;
+    color: #d6d6d6;
+    text-align: center;
+}
+span{
+    color: #993399;
+}
+.icone-up img{
+    transition: 2s;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+}
+/* ---------- FIM RODAPÉ ---------- */
+
